@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOIR | Men's Grooming Studio (Portfolio Demo)</title>
+<meta name="description" content="NOIR is a fictional premium men's grooming studio, a website portfolio demo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <a class="wordmark" href="#home" aria-label="NOIR home">NOIR</a>
+  <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu"><span></span><span></span></button>
+  <nav id="navMenu" class="nav__menu" aria-label="Primary">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#story">Our Story</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn--solid nav__cta" href="#book">Book Appointment</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <img class="hero__img" data-fallback src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1800&q=70" alt="A barber trimming a client's beard in a dark studio">
+  <div class="hero__shade"></div>
+  <div class="hero__body wrap">
+    <p class="tagline">Your Style. Your Statement.</p>
+    <h1 class="hero__title"><span>THE ART OF</span><span>MODERN GROOMING.</span></h1>
+    <p class="lead">Precision cuts. Refined details. A grooming experience designed around you.</p>
+    <div class="actions">
+      <a class="btn btn--solid" href="#book">Book Your Appointment</a>
+      <a class="btn btn--line" href="#services">Explore Services</a>
+    </div>
+  </div>
+  <a class="scroll" href="#services" aria-label="Scroll to services"><span></span></a>
+</section>
+
+<section class="section wrap" id="services">
+  <div class="head">
+    <h2>THE NOIR EXPERIENCE</h2>
+    <p class="muted">Exceptional grooming, tailored to your style.</p>
+  </div>
+  <ul class="services">
+    <li><a href="#book" data-service="Signature Haircut"><h3>Signature Haircut</h3><p>A precision haircut tailored to your features and personal style.</p><span class="price">₹199</span></a></li>
+    <li><a href="#book" data-service="Haircut & Beard"><h3>Haircut &amp; Beard</h3><p>A balanced combination of sharp styling and detailed beard grooming.</p><span class="price">₹299</span></a></li>
+    <li><a href="#book" data-service="Beard Sculpting"><h3>Beard Sculpting</h3><p>Defined lines, careful shaping, and a refined finish.</p><span class="price">₹149</span></a></li>
+    <li><a href="#book" data-service="Premium Grooming Ritual"><h3>Premium Grooming Ritual</h3><p>A complete grooming experience with elevated attention to detail.</p><span class="price">₹499</span></a></li>
+  </ul>
+  <p class="note">Illustrative sample prices for a portfolio demo. Not the prices of a real business.</p>
+</section>
+
+<section class="section section--alt" id="story">
+  <div class="wrap split">
+    <img data-fallback src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1000&q=70" alt="Barber working on a haircut in a premium salon" loading="lazy">
+    <div>
+      <h2>MORE THAN A HAIRCUT.</h2>
+      <p class="lead">At NOIR, grooming is a personal ritual. We combine thoughtful technique, attention to detail, and an understanding of individual style to create an experience that feels distinctly yours.</p>
+      <dl class="principles">
+        <div><dt>Precision</dt><dd>Clean lines, measured work.</dd></div>
+        <div><dt>Personal Style</dt><dd>Cuts shaped around you.</dd></div>
+        <div><dt>Attention to Detail</dt><dd>The finish is the point.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="gallery">
+  <div class="head"><h2>THE STUDIO</h2><p class="muted">Cuts, beards, tools and the room they happen in. Sample stock imagery.</p></div>
+  <div class="gallery">
+    <figure class="g1"><img data-fallback src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=70" alt="Precision haircut being finished" loading="lazy"></figure>
+    <figure class="g2"><img data-fallback src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=700&q=70" alt="Beard grooming with a straight razor" loading="lazy"></figure>
+    <figure class="g3"><img data-fallback src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=700&q=70" alt="Barber tools laid out on a counter" loading="lazy"></figure>
+    <figure class="g4"><img data-fallback src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=70" alt="Premium barber studio interior" loading="lazy"></figure>
+    <figure class="g5"><img data-fallback src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=900&q=70" alt="Stylist at work" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="head"><h2>WHY CHOOSE NOIR</h2></div>
+    <div class="why">
+      <div><h3>Personalised styling</h3><p>Every cut starts with a conversation.</p></div>
+      <div><h3>Attention to detail</h3><p>Edges, lines and finish, checked twice.</p></div>
+      <div><h3>Premium atmosphere</h3><p>A calm, comfortable chair.</p></div>
+      <div><h3>Consistent quality</h3><p>The same standard, every visit.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="book">
+  <div class="head"><h2>YOUR NEXT LOOK STARTS HERE.</h2><p class="muted">Demo form: it does not book a real appointment.</p></div>
+  <form id="bookForm" class="form" novalidate>
+    <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required><span class="err" id="nameErr" role="alert"></span></div>
+    <div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required><span class="err" id="phoneErr" role="alert"></span></div>
+    <div class="field"><label for="service">Preferred service</label>
+      <select id="service" name="service" required>
+        <option value="">Choose a service</option>
+        <option>Signature Haircut</option><option>Haircut &amp; Beard</option><option>Beard Sculpting</option><option>Premium Grooming Ritual</option>
+      </select><span class="err" id="serviceErr" role="alert"></span></div>
+    <div class="field"><label for="date">Preferred date</label><input id="date" name="date" type="date" required><span class="err" id="dateErr" role="alert"></span></div>
+    <div class="field field--wide"><label for="message">Message (optional)</label><textarea id="message" name="message" rows="3"></textarea></div>
+    <div class="field--wide actions">
+      <button class="btn btn--solid" type="submit">Check my request</button>
+      <a class="btn btn--line" id="waBook" href="https://wa.me/910000000000" target="_blank" rel="noopener">Book on WhatsApp</a>
+    </div>
+    <div class="result" id="result" role="status" tabindex="-1" hidden></div>
+  </form>
+</section>
+
+<section class="section section--alt" id="contact">
+  <div class="wrap split split--text">
+    <div>
+      <h2>VISIT THE STUDIO</h2>
+      <address>
+        <p><strong>Demo address, replace before launch</strong><br>00 Sample Street, Sample City, India</p>
+        <p><strong>Sample hours</strong><br>Mon to Sat 10:00 to 20:00<br>Sun 11:00 to 18:00</p>
+        <p><strong>Placeholder contact</strong><br>+91 00000 00000<br>hello@example.com</p>
+      </address>
+      <a class="btn btn--solid" id="waContact" href="https://wa.me/910000000000" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+    <div class="map" role="img" aria-label="Map placeholder"><p>Map placeholder<br><span class="muted">Replace with a Google Maps link</span></p></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div><a class="wordmark" href="#home">NOIR</a><p class="muted">Precision grooming, designed around you.</p></div>
+    <nav aria-label="Footer"><a href="#services">Services</a><a href="#story">Our Story</a><a href="#gallery">Gallery</a><a href="#book">Book</a></nav>
+    <div class="muted"><p>+91 00000 00000 (placeholder)</p><p>hello@example.com (placeholder)</p><p>Instagram: @your_handle (placeholder)</p></div>
+  </div>
+  <p class="wrap muted copy">© 2026 NOIR. Fictional brand created as a website portfolio demo.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
